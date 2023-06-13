@@ -3,21 +3,21 @@ services:
   dev:
     image: rammohan478/devrepo:latest
     ports:
-      - "90:80"
+      - "95:80"
     deploy:
       replicas: 3
 
   test:
     image: rammohan478/testrepo:latest
     ports:
-      - "91:80"
+      - "96:80"
     deploy:
       replicas: 3
 
   uat:
     image: rammohan478/uatrepo:latest
     ports:
-      - "92:80"
+      - "97:80"
     deploy:
       replicas: 3
 
